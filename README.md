@@ -5,7 +5,7 @@ Display current day forecast in command line.
 
 ```shell
 $ node weather.js
-
+```
 WEATHER Краснодарский край
 ☁ небольшой дождь
 Temperature: 6ºC , (feels like 1ºC)
