@@ -20,7 +20,6 @@ const saveConfigFields = async (key, field) => {
 const getForecast = async () => {
     try {
       const weather = await getWeather()
-        console.log(weather)
         printWeatherForecast(weather)
     } catch (e) {
         if (e?.response?.status === 404) {

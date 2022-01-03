@@ -55,7 +55,7 @@ const printWeatherForecast = (forecast) => {
 
     console.log(
             dedent`
-            ${chalk.bgYellow('WEATHER')} ${name}
+            ${chalk.bgYellowBright('WEATHER')} ${name}
             ${getIcon(icon)} ${description}
             Temperature: ${Math.round(temp)}ºC , (feels like ${Math.round(feels_like)}ºC)
             Humidity: ${humidity}%
